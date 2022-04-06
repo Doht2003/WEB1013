@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+html {
+  font-family: "Quicksand", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+/* Sreach buton */
+.search {
+  background: #f4f4f4;
+  height: 40px;
+  position: relative;
+}
+
+.search input {
+  float: right;
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+
+.search button {
+  height: 29px;
+  width: 30px;
+  position: absolute;
+  right: 2px;
+  top: 5px;
+  border-bottom-right-radius: 3px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+/* logo */
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* menu-top */
+.menu-top {
+  margin: 20px 20px;
+}
+
+.menu-top a {
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0 7px;
+  color: gray;
+}
+
+nav {
+  background: orangered;
+  min-height: 40px;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 40px;
+  padding: 10px 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  font-weight: bold;
+  transition: all 0.2s linear;
+}
+
+/* /banner */
+.banner {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* article */
+article {
+  width: 69%;
+  float: left;
+  min-height: 400px;
+  padding: 5px;
+  margin-left: 170px;
+}
+
+article .texts {
+  width: 100%;
+}
+
+article .texts .texts-top {
+  float: left;
+  width: 100%;
+}
+
+article .texts img {
+  width: 100%;
+}
+
+article .texts .texts-down {
+  float: left;
+  width: 100%;
+  display: flex;
+}
+
+article .texts .texts-down .down-content {
+  width: 25%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article .texts .texts-down .down-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+article .texts .texts-down .down-content a:hover {
+  color: green;
+  transition: all 0.2s linear;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.tieude {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background: blue;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+article .giaoDuc {
+  width: 100%;
+  margin-left: 250px;
+}
+
+.div-noidung {
+  width: 100%;
+  padding: 5px;
+}
+
+.noi-dung {
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+.noi-dung .imgs img {
+  width: 100%;
+}
+
+.noidungs-tieude {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.noidungs-noidung {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.taitro-tieude {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* aside */
+aside {
+  width: 30%;
+  float: left;
+  min-height: 400px;
+}
+
+aside .news .news-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  color: red;
+  background: #f4f4f4;
+  border-left: 5px solid red;
+  border-bottom: 1px solid red;
+}
+
+aside .news .news-content {
+  border: 1px solid #b3aeae;
+  min-height: 60px;
+}
+
+aside .news .news-content .content {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+aside .news .news-content .content a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+aside .news .news-content .content a:hover {
+  color: red;
+  transition: all 0.2s linear;
+}
+
+aside .news .news-content .date {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+footer {
+  width: 100%;
+  min-height: 400px;
+  background: #f4f4f4;
+  display: flex;
+}
+.chuchay {
+  width: 1200px;
+  margin: 0 auto;
+}
+marquee {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.thongtin {
+  width: 30%;
+  padding: 10px;
+  margin-left: 350px;
+}
+.thongtin > ul {
+  margin-left: 90px;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.hinhanh {
+  width: 60%;
+  padding: 10px;
+}
+
+.hinhanh img {
+  width: 20%;
+  float: left;
+  margin: 10px;
+}
+
+.danhmuc {
+  width: 20%;
+  padding: 10px;
+}
+
+.danhmuc ul li {
+  margin: 10px 0;
+}
+
+.danhmuc li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.danhmuc li a:hover {
+  color: red;
+  transition: all 0.2s linear;
+  font-weight: bold;
+}
