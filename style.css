@@ -193,13 +193,14 @@ ul {
   margin: 10px 0;
 }
 
-/* .hinhanh {
+.hinhanh {
   width: 60%;
   padding: 10px;
 }
 
 .hinhanh img {
-  width: 20%;
+  width: 100px;
+  height: 100px;
   float: left;
   margin: 10px;
 }
@@ -223,8 +224,12 @@ ul {
   color: red;
   transition: all 0.2s linear;
   font-weight: bold;
-} */
+}
 
+footer {
+  display: flex;
+  padding-bottom: 50px;
+}
 
 .footer-img{
   display: grid;
