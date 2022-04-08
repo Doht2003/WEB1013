@@ -183,10 +183,12 @@ footer {
   min-height: 400px;
   background: #f4f4f4;
   display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
 
 .thongtin {
-  width: 20%;
+  width: 30%;
   padding: 10px;
 }
 
